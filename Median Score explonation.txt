@@ -1,0 +1,26 @@
+First I receive input in scores array and if I
+want to change input I can write it in this way inside
+in curly brackets:
+{100, 20, 50, 70, 45}
+I use input from condition. If you want another input you can enter
+new values in currly brackets.After that I create List where I store
+on every iteration values from scores array.
+Algorithm logic is: on every iteration I add new value
+from scores array in storageOfScore after that I sort
+storageOfScore and I found median depending on condition
+if number of elements is even or odd which I found in
+findMiddleElement methotds on which I send array and
+return median and after that I store median in medianScores array.
+So in first iteration when i is 0 in storageOfScore 
+I have only one value{100} and depending on method I found median
+of one element which is current element{100}. On second iteration when i is 1
+in storageOfScore add second element{20}. First value is from first iteration
+and second is from second value of scores array.After that I sort
+storageOfScore{20, 100} and find median which is (20 + 100) / 2 = 60
+and store in medianScores. On third iteration I receive 50 and after
+sort storageOfScore contains{20, 50, 100} when use method return 50
+which is median in this case. On fourth iteration 70 is add in storageOfScore
+after sort -> {20, 50, 70, 100} and median in this case is (50 + 70) / 2 = 60
+and add this value in medianScores. In last iteration after sort storageOfScore
+{20, 45, 50, 70, 100} median is 50 and in 
+medianScores contains: [100, 60, 50, 60, 50]
